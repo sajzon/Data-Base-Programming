@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="676.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardController">
+   <children>
+      <ImageView fitHeight="182.0" fitWidth="589.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/download.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="174.0" layoutY="142.0" prefHeight="50.0" prefWidth="213.0" text="Student Area" textFill="#6986a8">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Separator layoutX="129.0" layoutY="191.0" prefHeight="2.0" prefWidth="300.0" />
+      <Button layoutX="178.0" layoutY="260.0" mnemonicParsing="false" onAction="#OpenSaveForm" prefHeight="39.0" prefWidth="233.0" style="-fx-background-color: #188b9d;" text=" SAVE" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="178.0" layoutY="338.0" mnemonicParsing="false" onAction="#OpenUpdateForm" prefHeight="39.0" prefWidth="233.0" style="-fx-background-color: #188b9d;" text=" UPDATE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="178.0" layoutY="420.0" mnemonicParsing="false" onAction="#OpenSearchForm" prefHeight="39.0" prefWidth="233.0" style="-fx-background-color: #188b9d;" text=" SERCH" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="178.0" layoutY="504.0" mnemonicParsing="false" onAction="#OpenDeleteForm" prefHeight="39.0" prefWidth="233.0" style="-fx-background-color: #188b9d;" text=" DELETE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
